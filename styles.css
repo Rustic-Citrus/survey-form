@@ -1,0 +1,61 @@
+header {
+    background-color: #1e2952ba;
+    width: 50%;
+    margin: 1em auto;
+    padding: 1em 0;
+    text-align: center;
+    color: #FFFFF0;
+    min-width: auto;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4C516D;
+    min-width: auto;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding-bottom: 0.5em;
+    border: none;
+    background-color: #1e2952ba;
+}
+
+label, textarea, select, input {
+    display: block;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+textarea {
+    width: 67%;
+    height: 3em;
+}
+
+footer {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    display: inline;
+    margin: 0.1em 0;
+}
+
+input[id="submit"] {
+    margin: 0.5em auto;
+    height: 3em;
+    width: 33%;
+    min-width: 100px;
+    background-color: #F8DE7E;
+    color:	#555555;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
