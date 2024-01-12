@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quick Emotional Check-In | Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Quick Emotional Check-In</h1>
+        <p id="description">How are you feeling today?</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label" for="name">Name:
+                    <input id="name" type="text" placeholder="Jane Doe" required />
+                </label>
+                <label id="email-label" for="email">Email:
+                    <input id="email" type="email" placeholder="janedoe@host.com" required />
+                </label>
+                <label id="number-label" for="number">Age (optional):
+                    <input id="number" type="number" placeholder="26" min="10" max="99" />
+                </label>
+                <label id="dropdown-label" for="dropdown">Sex:
+                    <select id="dropdown">
+                        <option value="">Select sex</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Prefer not to say</option>
+                    </select>
+                </label>
+                <label>Select the option that best describes your mood today:
+                    <label for="happy">
+                        <input type="radio" name="recommend" id="happy" value="1" /> Happy or content
+                    </label>
+                    <label for="stressed">
+                        <input type="radio" name="recommend" id="stressed" value="2" /> Stressed or anxious
+                    </label>
+                    <label for="sad">
+                        <input type="radio" name="recommend" id="sad" value="3" /> Sad or down
+                    </label>
+                    <label for="angry">
+                        <input type="radio" name="recommend" id="angry" value="4" /> Angry or frustrated
+                    </label>
+                    <label for="neutral">
+                        <input type="radio" name="recommend" id="neutral" value="0" /> Neutral
+                    </label>
+                </label>
+                <label>Select the feelings that you have felt in the past week:
+                    <label for="joy">
+                        <input type="checkbox" id="joy" value="1" /> Joy
+                    </label>
+                    <label for="sadness">
+                        <input type="checkbox" id="sadness" value="2" /> Sadness
+                    </label>
+                    <label for="anger">
+                        <input type="checkbox" id="anger" value="3" /> Anger
+                    </label>
+                    <label for="anxiety">
+                        <input type="checkbox" id="anxiety" value="4" /> Anxiety
+                    </label>
+                    <label for="loneliness">
+                        <input type="checkbox" id="loneliness" value="5" /> Loneliness
+                    </label>
+                    <label for="gratitude">
+                        <input type="checkbox" id="gratitude" value="6" /> Gratitude
+                    </label>
+                    <label for="stress">
+                        <input type="checkbox" id="stress" value="7" /> Stress
+                    </label>
+                    <label for="hope">
+                        <input type="checkbox" id="hope" value="8" /> Hope
+                    </label>
+                    <label for="excitement">
+                        <input type="checkbox" id="excitement" value="9" /> Excitement
+                    </label>
+                </label>
+                <label for="comments">What thoughts do you have about your mood today?
+                    <textarea id="comments" placeholder="Type your thoughts here..."></textarea>
+                </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+        </form>
+    </main>
+</body>
+<footer>
+    &copy; 2024. Harry Stuart Curtis.
+</footer>
+</html>
